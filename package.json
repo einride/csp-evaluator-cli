@@ -1,0 +1,50 @@
+{
+  "name": "@saga/csp-evaluator-cli",
+  "version": "0.0.0-development",
+  "description": "A command line tool to validate Content-Security-Policy rules",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "Nikita Galaiko <nikita.galaiko@einride.tech>",
+  "homepage": "https://github.com/einride/csp-evaluator-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/einride/csp-evaluator-cli.git"
+  },
+  "bugs": {
+    "email": "open-source@einride.tech",
+    "url": "https://github.com/einride/csp-evaluator-cli/issues"
+  },
+  "license": "MIT",
+  "bin": {
+    "csp": "src/index.js"
+  },
+  "keywords": [
+    "einride",
+    "csp",
+    "cli",
+    "content-security-policy"
+  ],
+  "publishConfig": {
+    "registry": "https://europe-west1-npm.pkg.dev/e-npm-registry-prod/npm"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "csp_evaluator": "^1.1.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.4.1",
+    "@commitlint/config-conventional": "19.4.1",
+    "@einride/eslint-plugin": "7.9.0",
+    "@einride/prettier-config": "^2.1.0",
+    "@einride/tsconfig": "^2.1.1",
+    "concurrently": "8.2.2",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
+    "eslint": "8.57.0",
+    "prettier": "3.3.3",
+    "semantic-release": "^24.0.0",
+    "semantic-release-yarn": "^3.0.2",
+    "typescript": "^5.5.4"
+  },
+  "packageManager": "yarn@3.5.0"
+}

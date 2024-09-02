@@ -1,0 +1,7 @@
+# node
+node_modules
+# corepack
+.yarn/*
+!.yarn/releases
+# gh auth
+gha-creds-*.json

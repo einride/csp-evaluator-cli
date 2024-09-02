@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: csp-evaluator-cli
+  title: Content Security Policy Evaluator Command line tool
+  description: A command line tool to validate Content-Security-Policy rules
+spec:
+  type: library
+  lifecycle: production
+  owner: freight-control
+  system: developer-tools
