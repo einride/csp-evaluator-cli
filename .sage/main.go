@@ -92,6 +92,6 @@ func GitVerifyNoDiff(ctx context.Context) error {
 func Release(ctx context.Context) error {
 	sg.Logger(ctx).Println("releasing...")
 	sg.Deps(ctx, InstallImmutable)
-	cmd := sg.Command(ctx, "yarn", "semantic-release", "--ci")
+	cmd := sg.Command(ctx, "yarn", "semantic-release")
 	return cmd.Run()
 }

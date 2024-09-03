@@ -15,7 +15,7 @@ module.exports = {
       },
     ],
     "@semantic-release/github",
-    "semantic-release-yarn",
+    "@semantic-release/npm",
     [
       "@semantic-release/release-notes-generator",
       {
