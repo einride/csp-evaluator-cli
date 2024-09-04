@@ -2,6 +2,12 @@
 
 A command line tool that wraps [csp-evaluator].
 
+## Installation
+
+```
+$ npm install -g @einride/csp-evaluator-cli
+```
+
 ## Usage
 
 CLI interface strives to mimic [CSP Evaluator online tool]. It takes Content Security Policy as a string,
