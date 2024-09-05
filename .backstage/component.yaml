@@ -8,4 +8,4 @@ spec:
   type: library
   lifecycle: production
   owner: freight-control
-  system: developer-tools
+  system: frontend-sdk
