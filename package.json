@@ -34,8 +34,8 @@
     "csp_evaluator": "^1.1.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.4.1",
-    "@commitlint/config-conventional": "19.4.1",
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
     "@einride/eslint-plugin": "7.9.0",
     "@einride/prettier-config": "^2.1.0",
     "@einride/tsconfig": "^2.1.1",
