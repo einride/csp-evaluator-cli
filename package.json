@@ -40,7 +40,7 @@
     "@einride/prettier-config": "^2.1.0",
     "@einride/tsconfig": "^2.1.1",
     "conventional-changelog-conventionalcommits": "^8.0.0",
-    "eslint": "8.57.0",
+    "eslint": "9.14.0",
     "prettier": "3.3.3",
     "semantic-release": "^24.0.0",
     "typescript": "^5.5.4"
