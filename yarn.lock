@@ -5788,8 +5788,8 @@ __metadata:
   linkType: hard
 
 "semantic-release@npm:^24.0.0":
-  version: 24.1.2
-  resolution: "semantic-release@npm:24.1.2"
+  version: 24.2.0
+  resolution: "semantic-release@npm:24.2.0"
   dependencies:
     "@semantic-release/commit-analyzer": ^13.0.0-beta.1
     "@semantic-release/error": ^4.0.0
@@ -5822,7 +5822,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: fdcbb162302d947a9bdeee0b7177882fd27ecb17c3a5307f461c80f48eeb8bbce981ac143df9c6f9e84cdacee18efc06e050a6f20e476d20f2d1e2bcc7a388ad
+  checksum: 7a5a490d8d4b50a93c0de1465bc9f4c742d4cbfc9a29c9a8b9012e3fd193fe162d9f5be43eceda22e650def2e6339e2dd55c9d5cf02ec706a6e9678b7caa51d2
   languageName: node
   linkType: hard
 
@@ -6572,22 +6572,22 @@ __metadata:
   linkType: hard
 
 "typescript@npm:^5.5.4":
-  version: 5.6.2
-  resolution: "typescript@npm:5.6.2"
+  version: 5.6.3
+  resolution: "typescript@npm:5.6.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 48777e1dabd9044519f56cd012b0296e3b72bafe12b7e8e34222751d45c67e0eba5387ecdaa6c14a53871a29361127798df6dc8d1d35643a0a47cb0b1c65a33a
+  checksum: ba302f8822777ebefb28b554105f3e074466b671e7444ec6b75dadc008a62f46f373d9e57ceced1c433756d06c8b7dc569a7eefdf3a9573122a49205ff99021a
   languageName: node
   linkType: hard
 
 "typescript@patch:typescript@^5.5.4#~builtin<compat/typescript>":
-  version: 5.6.2
-  resolution: "typescript@patch:typescript@npm%3A5.6.2#~builtin<compat/typescript>::version=5.6.2&hash=85af82"
+  version: 5.6.3
+  resolution: "typescript@patch:typescript@npm%3A5.6.3#~builtin<compat/typescript>::version=5.6.3&hash=85af82"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c084ee1ab865f108c787e6233a5f63c126c482c0c8e87ec998ac5288a2ad54b603e1ea8b8b272355823b833eb31b9fabb99e8c6152283e1cb47e3a76bd6faf6c
+  checksum: ade87bce2363ee963eed0e4ca8a312ea02c81873ebd53609bc3f6dc0a57f6e61ad7e3fb8cbb7f7ab8b5081cbee801b023f7c4823ee70b1c447eae050e6c7622b
   languageName: node
   linkType: hard
 
