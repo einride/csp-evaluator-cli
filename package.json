@@ -34,14 +34,14 @@
     "csp_evaluator": "^1.1.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.5.0",
-    "@commitlint/config-conventional": "19.5.0",
+    "@commitlint/cli": "19.6.1",
+    "@commitlint/config-conventional": "19.6.0",
     "@einride/eslint-plugin": "7.9.0",
     "@einride/prettier-config": "^2.1.0",
     "@einride/tsconfig": "^2.1.1",
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "eslint": "8.57.0",
-    "prettier": "3.3.3",
+    "prettier": "3.4.2",
     "semantic-release": "^24.0.0",
     "typescript": "^5.5.4"
   },
