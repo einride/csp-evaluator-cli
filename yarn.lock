@@ -39,30 +39,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:19.5.0":
-  version: 19.5.0
-  resolution: "@commitlint/cli@npm:19.5.0"
+"@commitlint/cli@npm:19.8.0":
+  version: 19.8.0
+  resolution: "@commitlint/cli@npm:19.8.0"
   dependencies:
-    "@commitlint/format": ^19.5.0
-    "@commitlint/lint": ^19.5.0
-    "@commitlint/load": ^19.5.0
-    "@commitlint/read": ^19.5.0
-    "@commitlint/types": ^19.5.0
+    "@commitlint/format": ^19.8.0
+    "@commitlint/lint": ^19.8.0
+    "@commitlint/load": ^19.8.0
+    "@commitlint/read": ^19.8.0
+    "@commitlint/types": ^19.8.0
     tinyexec: ^0.3.0
     yargs: ^17.0.0
   bin:
-    commitlint: cli.js
-  checksum: d4489acd353ef8cdefd6c8127b1b40d84382db8507a1f4d5e31c5a6319bd8b59e80d9c7d821bbb296617fb4c4a02f1b6aee11eb4fb455cb8e4c25c43b23f67c2
+    commitlint: ./cli.js
+  checksum: bf6f3d5d1855dc474b691647300eb11df585d968c89bcf76948480a2dec3b9905acc051df1e2109fbca4632f9d7720457f1ae60561b8632ff65d52d4b11089db
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:19.5.0":
-  version: 19.5.0
-  resolution: "@commitlint/config-conventional@npm:19.5.0"
+"@commitlint/config-conventional@npm:19.8.0":
+  version: 19.8.0
+  resolution: "@commitlint/config-conventional@npm:19.8.0"
   dependencies:
-    "@commitlint/types": ^19.5.0
+    "@commitlint/types": ^19.8.0
     conventional-changelog-conventionalcommits: ^7.0.2
-  checksum: 96498a69c7136f672060a4ff025bc5d81946d3941f9319b58346f0894db70a20aa86c4ad2845d594696d7063dace5d85763f5f3acf6f6494fb6af91cbd65efac
+  checksum: 9c2cd7d8ddceeaf87acc2538e1c2ce486e1f1dae239b33dede01daf38d7d3c73abd1fc2e732bd45e637e4f2caaac5f405d16a8255f3df1f15a710546fe791f01
   languageName: node
   linkType: hard
 
@@ -97,7 +97,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/format@npm:^19.5.0":
+"@commitlint/format@npm:^19.8.0":
   version: 19.8.0
   resolution: "@commitlint/format@npm:19.8.0"
   dependencies:
@@ -117,7 +117,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^19.5.0":
+"@commitlint/lint@npm:^19.8.0":
   version: 19.8.0
   resolution: "@commitlint/lint@npm:19.8.0"
   dependencies:
@@ -129,7 +129,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^19.5.0":
+"@commitlint/load@npm:^19.8.0":
   version: 19.8.0
   resolution: "@commitlint/load@npm:19.8.0"
   dependencies:
@@ -165,7 +165,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/read@npm:^19.5.0":
+"@commitlint/read@npm:^19.8.0":
   version: 19.8.0
   resolution: "@commitlint/read@npm:19.8.0"
   dependencies:
@@ -220,7 +220,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/types@npm:^19.5.0, @commitlint/types@npm:^19.8.0":
+"@commitlint/types@npm:^19.8.0":
   version: 19.8.0
   resolution: "@commitlint/types@npm:19.8.0"
   dependencies:
@@ -234,8 +234,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@einride/csp-evaluator-cli@workspace:."
   dependencies:
-    "@commitlint/cli": 19.5.0
-    "@commitlint/config-conventional": 19.5.0
+    "@commitlint/cli": 19.8.0
+    "@commitlint/config-conventional": 19.8.0
     "@einride/eslint-plugin": 7.9.0
     "@einride/prettier-config": ^2.1.0
     "@einride/tsconfig": ^2.1.1
@@ -244,7 +244,7 @@ __metadata:
     conventional-changelog-conventionalcommits: ^8.0.0
     csp_evaluator: ^1.1.2
     eslint: 8.57.0
-    prettier: 3.3.3
+    prettier: 3.5.3
     semantic-release: ^24.0.0
     typescript: ^5.5.4
   bin:
@@ -5527,12 +5527,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.3.3":
-  version: 3.3.3
-  resolution: "prettier@npm:3.3.3"
+"prettier@npm:3.5.3":
+  version: 3.5.3
+  resolution: "prettier@npm:3.5.3"
   bin:
     prettier: bin/prettier.cjs
-  checksum: bc8604354805acfdde6106852d14b045bb20827ad76a5ffc2455b71a8257f94de93f17f14e463fe844808d2ccc87248364a5691488a3304f1031326e62d9276e
+  checksum: 61e97bb8e71a95d8f9c71f1fd5229c9aaa9d1e184dedb12399f76aa802fb6fdc8954ecac9df25a7f82ee7311cf8ddbd06baf5507388fc98e5b44036cc6a88a1b
   languageName: node
   linkType: hard
 
@@ -6797,22 +6797,22 @@ __metadata:
   linkType: hard
 
 "typescript@npm:^5.5.4":
-  version: 5.8.2
-  resolution: "typescript@npm:5.8.2"
+  version: 5.8.3
+  resolution: "typescript@npm:5.8.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 7f9e3d7ac15da6df713e439e785e51facd65d6450d5f51fab3e8d2f2e3f4eb317080d895480b8e305450cdbcb37e17383e8bf521e7395f8b556e2f2a4730ed86
+  checksum: cb1d081c889a288b962d3c8ae18d337ad6ee88a8e81ae0103fa1fecbe923737f3ba1dbdb3e6d8b776c72bc73bfa6d8d850c0306eed1a51377d2fccdfd75d92c4
   languageName: node
   linkType: hard
 
 "typescript@patch:typescript@^5.5.4#~builtin<compat/typescript>":
-  version: 5.8.2
-  resolution: "typescript@patch:typescript@npm%3A5.8.2#~builtin<compat/typescript>::version=5.8.2&hash=85af82"
+  version: 5.8.3
+  resolution: "typescript@patch:typescript@npm%3A5.8.3#~builtin<compat/typescript>::version=5.8.3&hash=85af82"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: a58d19ff9811c1764a299dd83ca20ed8020f0ab642906dafc880121b710751227201531fdc99878158205c356ac79679b0b61ac5b42eda0e28bfb180947a258d
+  checksum: 1b503525a88ff0ff5952e95870971c4fb2118c17364d60302c21935dedcd6c37e6a0a692f350892bafcef6f4a16d09073fe461158547978d2f16fbe4cb18581c
   languageName: node
   linkType: hard
 
