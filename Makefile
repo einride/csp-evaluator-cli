@@ -55,6 +55,10 @@ commitlint: $(sagefile)
 default: $(sagefile)
 	@$(sagefile) Default
 
+.PHONY: dependabot-fix
+dependabot-fix: $(sagefile)
+	@$(sagefile) DependabotFix
+
 .PHONY: format
 format: $(sagefile)
 	@$(sagefile) Format

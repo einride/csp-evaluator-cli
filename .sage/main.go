@@ -26,6 +26,16 @@ func Default(ctx context.Context) error {
 	return nil
 }
 
+func DependabotFix(ctx context.Context) error {
+	sg.SerialDeps(
+		ctx,
+		Install,
+		Format,
+		GoFormat,
+	)
+	return nil
+}
+
 func Install(ctx context.Context) error {
 	sg.Logger(ctx).Println("installing dependencies...")
 	return sg.Command(ctx, "yarn", "install").Run()
