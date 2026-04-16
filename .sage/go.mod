@@ -1,5 +1,5 @@
 module github.com/einride/csp-evaluator-cli/.sage
 
-go 1.24.9
+go 1.25.7
 
-require go.einride.tech/sage v0.387.0
+require go.einride.tech/sage v0.409.0
